@@ -8,3 +8,4 @@ C:\Users\Jacek\Desktop\PROJEKTY\C#\tictactoe\tictactoe\obj\Debug\tictactoe.cspro
 C:\Users\Jacek\Desktop\PROJEKTY\C#\tictactoe\tictactoe\obj\Debug\tictactoe.csproj.CoreCompileInputs.cache
 C:\Users\Jacek\Desktop\PROJEKTY\C#\tictactoe\tictactoe\obj\Debug\tictactoe.exe
 C:\Users\Jacek\Desktop\PROJEKTY\C#\tictactoe\tictactoe\obj\Debug\tictactoe.pdb
+C:\Users\Jacek\Desktop\PROJEKTY\C#\tictactoe\tictactoe\obj\Debug\tictactoe.Form2.resources
