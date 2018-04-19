@@ -18,18 +18,11 @@ namespace tictactoe
         public bool against_computer = false;
         bool turn = true;
         int turn_count = 0;
-        static String player1, player2;
 
         public Form1()
         {
             InitializeComponent();
-        }
-
-        public static  void setPlayersNames (String n1, String n2)
-        {
-            player1 = n1;
-            player2 = n2;    
-        }
+        }      
 
         private void wyjścieToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -54,7 +47,6 @@ namespace tictactoe
             turn_count++;
             checkForWinner();
         }
-
 
         private void checkForWinner()
         {
@@ -95,12 +87,12 @@ namespace tictactoe
 
                 if (turn)
                 {
-                    winner = player2;
+                    winner = p2.Text;
                     o_win_count.Text = (Int32.Parse(o_win_count.Text) + 1).ToString();
                 }
                 else
                 { 
-                winner = player1;
+                winner = p1.Text;
                     x_win_count.Text = (Int32.Parse(x_win_count.Text) + 1).ToString();
                 }              
                 MessageBox.Show(winner + " wygrał/a!", "Brawo!");
@@ -198,10 +190,6 @@ namespace tictactoe
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            Form f2 = new Form2();
-            f2.ShowDialog();
-            label1.Text = player1;
-            label3.Text = player2;
 
         }
     }
