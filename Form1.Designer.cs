@@ -126,7 +126,7 @@
             this.jakGraćToolStripMenuItem.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("jakGraćToolStripMenuItem.BackgroundImage")));
             this.jakGraćToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.jakGraćToolStripMenuItem.Name = "jakGraćToolStripMenuItem";
-            this.jakGraćToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.jakGraćToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.jakGraćToolStripMenuItem.Text = "Jak grać?";
             this.jakGraćToolStripMenuItem.Click += new System.EventHandler(this.jakGraćToolStripMenuItem_Click);
             // 
@@ -135,7 +135,7 @@
             this.oGrzeToolStripMenuItem.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("oGrzeToolStripMenuItem.BackgroundImage")));
             this.oGrzeToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.oGrzeToolStripMenuItem.Name = "oGrzeToolStripMenuItem";
-            this.oGrzeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.oGrzeToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.oGrzeToolStripMenuItem.Text = "Autor";
             this.oGrzeToolStripMenuItem.Click += new System.EventHandler(this.oGrzeToolStripMenuItem_Click);
             // 
@@ -172,7 +172,7 @@
             this.A3.TabIndex = 3;
             this.A3.UseVisualStyleBackColor = true;
             this.A3.Click += new System.EventHandler(this.button_click);
-            this.A3.MouseEnter += new System.EventHandler(this.button_enter);
+            this.A3.MouseEnter += new System.EventHandler(this.nowaGraToolStripMenuItem_Click);
             this.A3.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // B1
@@ -251,7 +251,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.label2.Location = new System.Drawing.Point(106, 270);
             this.label2.Name = "label2";
